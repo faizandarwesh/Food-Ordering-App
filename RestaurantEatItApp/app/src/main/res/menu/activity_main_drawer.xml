@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fastfood"
+            android:icon="@drawable/burgerone"
+            android:title="Fast Food" />
+        <item
+            android:id="@+id/nav_seafood"
+            android:icon="@drawable/fishlogo"
+            android:title="Sea Food" />
+        <item
+            android:id="@+id/nav_italian"
+            android:icon="@drawable/pastalogo"
+            android:title="Italian Food" />
+        <item
+            android:id="@+id/nav_continental"
+            android:icon="@drawable/continentallogo"
+            android:title="Continental Food" />
+
+        <item
+            android:id="@+id/nav_traditional"
+            android:icon="@drawable/traditional"
+            android:title="Traditional Food" />
+
+        <item
+            android:id="@+id/nav_chinese"
+            android:icon="@drawable/chineselogo"
+            android:title="Chinese Food" />
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <item
+                android:id="@+id/order_details_drawer"
+                android:icon="@drawable/ic_order_details_24dp"
+                android:title="Order Details" />
+
+            <item
+                android:id="@+id/submit_order"
+                android:icon="@drawable/ic_event_available_black_24dp"
+                android:title="Submit Order" />
+
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>

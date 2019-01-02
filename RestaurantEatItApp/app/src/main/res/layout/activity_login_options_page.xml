@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.homepc.restauranteatitapp.LoginOptionsPage">
+
+    <Button
+        android:id="@+id/userinfo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:text="User Information"
+        android:background="#39796b"
+        android:visibility="invisible"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/order_details"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:text="Order Details"
+        android:background="#39796b"
+        android:visibility="invisible"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:src="@drawable/logo_eat_it"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/slogan"
+            android:textStyle="italic"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/darkgreenbtns"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginBottom="5dp"
+            android:text="Sign In"
+            android:background="@drawable/lightgreenbtns"
+            android:textColor="#FFFFFF"
+
+            />
+
+    </LinearLayout>
+    </RelativeLayout>
+
+<!--android:background="#39796b"-->

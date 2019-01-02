@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Eat It</string>
+    <string name="slogan"> Make it great "\n"Now you’re eating! "\n"Makin’ it great again and again "\n"Now You’re Eating! "\n"Gather ‘Round the Good Stuff</string>
+    <string name="title_activity_main">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_title">Are you sure you want to Logout ?</string>
+    <string name="dialog_popup">   Eat It Restaurant</string>
+    <string name="ok" />
+    <string name="cancel" />
+
+
+</resources>

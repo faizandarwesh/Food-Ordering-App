@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="25dp"
+        />
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="45dp"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/minus_btn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="235dp"
+        android:textSize="15sp"
+
+        />
+
+    <Button
+        android:id="@+id/plus_btn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/cart_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="200dp"
+        android:text="Add to Cart"
+        android:textAllCaps="false"
+        android:textSize="15sp"/>
+
+    <!-- android:background="#39796b"-->
+        <!--android:textColor="#FFFFFF"-->
+
+
+</RelativeLayout>
